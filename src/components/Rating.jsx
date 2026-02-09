@@ -15,7 +15,7 @@ const Rating = () => {
             onMounseLeave={() => setHover(0)}
             onClick={() => setRating(star)}
             key={star}
-            className="star"
+            className={"star" + "active"}
           >
             {"\u2605"}
           </span>
